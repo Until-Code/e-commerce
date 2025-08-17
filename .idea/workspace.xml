@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df7bb323-a4ed-4f7e-918a-19b8080e17d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/RegisterUserType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/RegisterUserType.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +164,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/customer-account&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;backup/feature-customer-account&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/djemalsa/Github/e-commerce&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -194,6 +194,8 @@
       <workItem from="1755040108804" duration="3886000" />
       <workItem from="1755269705680" duration="3742000" />
       <workItem from="1755293963395" duration="1477000" />
+      <workItem from="1755386432595" duration="512000" />
+      <workItem from="1755470722425" duration="2032000" />
     </task>
     <servers />
   </component>
