@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df7bb323-a4ed-4f7e-918a-19b8080e17d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/RegisterUserType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/RegisterUserType.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
