@@ -18,11 +18,12 @@
 
 <style>
 
+
 </style>
 <body>
 
 <header data-bs-theme="dark">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark  fixed-top bg-black">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ path('app_home') }}">La Boutique Française</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,6 +60,18 @@
 </header>
 
 <main>
+<div class="container">
+    {% for label, messages in app.flashes %}
+        {% for message in messages %}
+            <div class="alert mt-4 alert-{{ label }}">
+                {{ message }}
+            </div>
+        {% endfor %}
+
+</div>
+
+
+    {% endfor %}
     {% block body %}
 
     {% endblock %}
