@@ -29,13 +29,13 @@ class RegisterUserType extends AbstractType
             ->add('plainPassword', RepeatedType::class,
                 [
                     'type' => PasswordType::class,
-                    'constraints' => [new Length([
-                        'min' => 3,
-                        'max' => 10,
-                        'minMessage'=> 'Veuillez saisir au minmum 3 caractère !',
-                        'maxMessage' => 'Veuillez saisir au maximum 10 caractères !'
+                    'constraints' => [ new Length(
+                        min : 3,
+                        max : 10,
+                        minMessage : 'Veuillez saisir au minmum 3 caractère !',
+                        maxMessage : 'Veuillez saisir au maximum 10 caractères !'
 
-                    ])],
+                    )],
                     'first_options'  => [
                         'attr' => [
                             "placeholder" => "Indiquez votre mot de passe"
@@ -51,13 +51,13 @@ class RegisterUserType extends AbstractType
 
             ->add('firstname', TextType::class, [
 
-                'constraints' => [new Length([
-                    'min' => 3,
-                    'max' => 10,
-                    'minMessage'=> 'Veuillez saisir au minmum 3 caractère !',
-                    'maxMessage' => 'Veuillez saisir au maximum 10 caractères !'
+                'constraints' => [new Length(
+                    min : 3,
+                    max : 10,
+                    minMessage :'Veuillez saisir au minmum 3 caractère !',
+                    maxMessage : 'Veuillez saisir au maximum 10 caractères !'
 
-                ])],
+                )],
                 'label' => "Prénom",
                 'attr' => [
                     "placeholder" => "Indiquez votre Prénom"
@@ -65,13 +65,13 @@ class RegisterUserType extends AbstractType
             ])
             ->add('lastname', TextType::class, [
 
-                'constraints' => [new Length([
-                    'min' => 3,
-                    'max' => 10,
-                    'minMessage'=> 'Veuillez saisir au minmum 3 caractère !',
-                    'maxMessage' => 'Veuillez saisir au maximum 10 caractères !'
+                'constraints' => [new Length(
+                    min : 3,
+                    max : 10,
+                    minMessage : 'Veuillez saisir au minmum 3 caractère !',
+                    maxMessage : 'Veuillez saisir au maximum 10 caractères !'
 
-                ])],
+                )],
                 'label' => "Nom",
                 'attr' => [
                     "placeholder" => "indiquez votre nom"
